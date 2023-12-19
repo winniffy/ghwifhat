@@ -26,7 +26,7 @@ const Tokenomics = () => {
       <div className="tokenomics_box">
         <button className="token_btn token_btn-ca">CONTRACT ADDRESS</button>
         <p className="address">{addressText}</p>
-        <button className="token_btn token_btn-copy" onclick={handleCopyClick}>
+        <button className="token_btn token_btn-copy" onClick={handleCopyClick}>
           {isCopied ? "Copied" : "Copy"}
         </button>
       </div>
