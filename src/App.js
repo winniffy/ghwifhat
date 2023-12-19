@@ -11,6 +11,7 @@ import meme1 from "./Assets/meme2.jpg";
 import meme2 from "./Assets/meme4.jpg";
 import meme3 from "./Assets/meme2.jpg";
 import meme4 from "./Assets/meme1.jpg";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         meme3={meme3}
         meme4={meme4}
       />
+      <Footer logo={logo} />
     </>
   );
 }
