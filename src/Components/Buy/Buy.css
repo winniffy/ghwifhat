@@ -1,0 +1,47 @@
+.buy_section {
+    background-color: whitesmoke;
+    color: #1B0522;
+    padding: 4rem 10%;
+    text-align: center;
+
+}
+
+.buy_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy_flexbox {
+    border-radius: 15px;
+    border: 2px solid #AB9FF5;
+    width: 30%;
+    line-height: 1.5;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding-inline: 1rem;
+}
+
+.howToBuy {
+    background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buy_head {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.buy_text {
+    font-size: 1rem;
+    line-height: 1.7;
+}

@@ -1,0 +1,24 @@
+.carousel_section {
+    padding: 5rem 10%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.carousel_header {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgb(188, 134, 254)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+@media(max-width: 500px) {
+    .carousel .slide {
+        min-width: 100% !important;
+    }
+
+    .carousel_box {
+        margin-inline: 1.5rem;
+    }
+}

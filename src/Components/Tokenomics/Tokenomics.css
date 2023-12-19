@@ -1,0 +1,72 @@
+.tokenomics_section {
+    padding: 5rem 10%;
+    margin-bottom: 3rem;
+}
+
+.tokenomics_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.token_btn {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-family: inherit;
+}
+
+.address {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgb(188, 134, 254)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.token_btn-ca {
+    padding-block: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    border: 2px solid #AB9FF5;
+    background-color: #ab9ff528;
+    color: #fff;
+}
+
+.token_btn-copy {
+    cursor: pointer;
+}
+
+.tokenomics-box {
+    border: 2px solid #fff;
+    margin-top: 4rem;
+    padding: 1rem 3rem 3rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ab9ff528;
+}
+
+.tokenomics-box_header {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.tokenomics-box_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenomics-mini_box {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+  padding-block: 1rem;
+  font-size: 1.2rem;
+}
+
