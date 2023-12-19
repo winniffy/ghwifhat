@@ -16,8 +16,20 @@ const Hero = ({ heroImage, heroImage2 }) => {
           <u>$GhostWifHat</u> is a community driven token inspired by Phantom.
         </p>
         <div className="hero_buttons-flex">
-          <button className="hero_btn">Chart</button>
-          <button className="hero_btn">Buy</button>
+          <a
+            href="https://t.co/iubclBM3sH"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="hero_btn">Chart</button>
+          </a>
+          <a
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="hero_btn">Buy</button>
+          </a>
         </div>
       </motion.div>
 

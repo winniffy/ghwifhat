@@ -38,7 +38,7 @@ const Tokenomics = () => {
           <div className="tokenomics-mini_box">
             <p className="">Supply</p>
             <p className="">
-              <b> 875,000</b>
+              <b>99,999,934.95</b>
             </p>
           </div>
 

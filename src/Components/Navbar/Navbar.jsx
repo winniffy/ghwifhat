@@ -29,13 +29,25 @@ const Navbar = ({ logo }) => {
 
       {/* nav list items */}
       <ul className="navlist">
-        <a href="https://t.co/Kih6IQWH15" target="_blank" rel="noreferrer">
+        <a
+          href="https://t.co/Kih6IQWH15"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <li className="navitem">Twitter(X)</li>
         </a>
-        <a href="https://t.co/iubclBM3sH" target="_blank" rel="noreferrer">
+        <a
+          href="https://t.co/iubclBM3sH"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <li className="navitem">Telegram</li>
         </a>
-        <a href="https://t.co/6SF27Swspb" target="_blank" rel="noreferrer">
+        <a
+          href="https://t.co/6SF27Swspb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <li className="navitem">Chart</li>
         </a>
       </ul>
@@ -45,7 +57,7 @@ const Navbar = ({ logo }) => {
         <a
           href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <button className="btn buy_btn">Buy $GIF</button>
         </a>
