@@ -68,7 +68,7 @@ const Navbar = ({ logo }) => {
               <motion.a href="https://t.co/Kih6IQWH15" variants={item}>
                 <li className="navitem">Twitter(X)</li>
               </motion.a>
-              <motion.a ref="https://t.co/iubclBM3sH" variants={item}>
+              <motion.a href="https://t.co/iubclBM3sH" variants={item}>
                 <li className="navitem">Telegram</li>
               </motion.a>
               <motion.a href="https://t.co/6SF27Swspb" variants={item}>
