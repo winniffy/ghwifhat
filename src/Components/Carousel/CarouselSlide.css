@@ -18,6 +18,10 @@
     max-height: 300px;
 }
 
+.carousel_box {
+    margin-right: 2rem;
+}
+
 @media(max-width: 500px) {
     .carousel .slide {
         min-width: 100% !important;

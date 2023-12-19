@@ -3,9 +3,17 @@ nav {
     align-items: center;
     padding: .5rem 10%;
     justify-content: space-between;
+    position: sticky;
+    background-color: #1B0522;
+    top: 0;
+    z-index: 20;
 
     --primaryColor: #fff;
     --secColor: #AB9FF5;
+}
+
+.logo {
+    width: 70px;
 }
 
 ul, a {
