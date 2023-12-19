@@ -58,6 +58,11 @@ ul, a {
 
 /* responsiveness */
 @media(max-width: 500px) {
+
+    .logo {
+        width: 70px;
+    }
+
     .navlist, .navbuttons {
         display: none;
     }

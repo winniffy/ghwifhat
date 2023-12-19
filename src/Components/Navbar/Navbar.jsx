@@ -25,7 +25,7 @@ const Navbar = ({ logo }) => {
   return (
     <nav>
       {/* logo */}
-      <img src={logo} alt="gif logo" />
+      <img src={logo} alt="gif logo" className="logo" />
 
       {/* nav list items */}
       <ul className="navlist">
