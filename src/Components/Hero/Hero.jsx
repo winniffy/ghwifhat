@@ -13,7 +13,7 @@ const Hero = ({ heroImage, heroImage2 }) => {
       >
         <h1 className="hero_header">ghostwifhat on solana</h1>
         <p className="hero_subtext">
-          <u>$GhostWifHat</u> is a community driven token inspired by Phantom.
+          <u>$GIF</u> is a community driven token inspired by Phantom.
         </p>
         <div className="hero_buttons-flex">
           <a
