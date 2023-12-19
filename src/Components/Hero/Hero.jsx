@@ -17,7 +17,7 @@ const Hero = ({ heroImage, heroImage2 }) => {
         </p>
         <div className="hero_buttons-flex">
           <a
-            href="https://t.co/iubclBM3sH"
+            href="https://t.co/6SF27Swspb"
             target="_blank"
             rel="noopener noreferrer"
           >
