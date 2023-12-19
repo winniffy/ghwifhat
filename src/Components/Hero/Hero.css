@@ -66,3 +66,34 @@
     top: -3rem;
     left: 10rem;
 }
+
+@media(max-width: 500px) {
+    .hero_container {
+        flex-direction: column;
+    }
+
+    .hero_left {
+        text-align: center;
+    }
+
+    .hero_header{
+        font-size: 3rem;
+    }
+
+    .hero_buttons-flex {
+        margin-top: 1rem;
+    }
+
+    .hero_img1 {
+        display: none;
+    }
+
+    .hero_img2 {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        max-width: 60%;
+    }
+}
