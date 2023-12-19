@@ -84,4 +84,8 @@
         width: 100%;
         margin-bottom: 2rem;
     }
+
+    .tokenomics-box_header {
+        font-size: 1.5rem;
+    }
 }

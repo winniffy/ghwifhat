@@ -42,7 +42,11 @@ const Navbar = ({ logo }) => {
 
       {/* nav buttons */}
       <ul className="navbuttons">
-        <a href="https://t.co/6SF27Swspb" target="_blank" rel="noreferrer">
+        <a
+          href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="btn buy_btn">Buy $GIF</button>
         </a>
       </ul>
@@ -76,10 +80,8 @@ const Navbar = ({ logo }) => {
               </motion.a>
               {/* nav buttons */}
               <motion.li className="navitem_btn" variants={item}>
-                <a href="https://t.co/6SF27Swspb">
-                  <button className="btn_mobile register_btn-mobile">
-                    BUY $GIF
-                  </button>
+                <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in">
+                  <button className="btn_mobile">BUY $GIF</button>
                 </a>
               </motion.li>
             </motion.ul>

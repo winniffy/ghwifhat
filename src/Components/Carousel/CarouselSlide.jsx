@@ -19,20 +19,20 @@ const CarouselSlide = ({ heroImage2, meme1, meme2, meme3, meme4 }) => {
         centerMode={true}
         centerSlidePercentage={centerSlidePercentage}
       >
-        {/* <div className="carousel_box">
-          <img src={heroImage2} alt="" />
-        </div> */}
         <div className="carousel_box">
-          <img src={meme1} alt="" />
+          <img src={heroImage2} alt="meme" className="carouselImage" />
         </div>
         <div className="carousel_box">
-          <img src={meme2} alt="" />
+          <img src={meme1} alt="meme" className="carouselImage" />
         </div>
         <div className="carousel_box">
-          <img src={meme3} alt="" />
+          <img src={meme2} alt="meme" className="carouselImage" />
         </div>
         <div className="carousel_box">
-          <img src={meme4} alt="" />
+          <img src={meme3} alt="meme" className="carouselImage" />
+        </div>
+        <div className="carousel_box">
+          <img src={meme4} alt="meme" className="carouselImage" />
         </div>
       </Carousel>
       {/* carousel slide 1 */}

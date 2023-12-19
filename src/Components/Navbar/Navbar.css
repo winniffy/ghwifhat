@@ -68,11 +68,11 @@ ul, a {
 
     .menu_container {
         background-color: var(--secColor);
-        padding: 0 5%;
+        padding: 0 10%;
         position: fixed;
         z-index: 10;
         height: 100%;
-        inset: 9% 0 0 0;
+        inset: 15% 0 0 0;
     }
 
     .navlist_mobile {
@@ -83,12 +83,13 @@ ul, a {
         color: #fff;
         font-size: 1.5rem;
         line-height: 2.5;
-        border-bottom: 1px solid #006d6dea;
+        border-bottom: 1px solid #1B0522;
         transition: all .2s ease-in-out;
     }
 
     .navitem:hover {
-        border-bottom: 3px solid #006d6dea;
+        color: #e2e2e2;
+        border-bottom: 3px solid #1B0522;
     }
 
     .btn_mobile {
@@ -97,14 +98,9 @@ ul, a {
         padding: 1rem 0;
         border: 0;
         border-radius: 25px;
-        color: var(--secColor);
-        font-size: 1rem;
-        font-weight: 500;
-    }
-
-    .login_btn-mobile {
-        border: 2px solid #fff;
-        background-color: transparent;
-        color: #fff;
+        color: #1B0522;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: inherit;
     }
 }
