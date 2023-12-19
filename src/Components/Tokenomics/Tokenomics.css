@@ -70,3 +70,18 @@
   font-size: 1.2rem;
 }
 
+
+@media(max-width: 500px) {
+    .address {
+        font-size: .8rem;
+    }
+
+    .tokenomics-box_flex {
+        flex-direction: column;
+    }
+
+    .tokenomics-mini_box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

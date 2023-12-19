@@ -29,20 +29,22 @@ const Navbar = ({ logo }) => {
 
       {/* nav list items */}
       <ul className="navlist">
-        <a href="#">
+        <a href="https://t.co/Kih6IQWH15" target="_blank" rel="noreferrer">
           <li className="navitem">Twitter(X)</li>
         </a>
-        <a href="#">
+        <a href="https://t.co/iubclBM3sH" target="_blank" rel="noreferrer">
           <li className="navitem">Telegram</li>
         </a>
-        <a href="#">
+        <a href="https://t.co/6SF27Swspb" target="_blank" rel="noreferrer">
           <li className="navitem">Chart</li>
         </a>
       </ul>
 
       {/* nav buttons */}
       <ul className="navbuttons">
-        <button className="btn buy_btn">Buy $GIF</button>
+        <a href="https://t.co/6SF27Swspb" target="_blank" rel="noreferrer">
+          <button className="btn buy_btn">Buy $GIF</button>
+        </a>
       </ul>
 
       {/* mobile nav */}
@@ -63,20 +65,22 @@ const Navbar = ({ logo }) => {
               initial="hidden"
               animate="show"
             >
-              <motion.a href="#" variants={item}>
+              <motion.a href="https://t.co/Kih6IQWH15" variants={item}>
                 <li className="navitem">Twitter(X)</li>
               </motion.a>
-              <motion.a href="#" variants={item}>
+              <motion.a ref="https://t.co/iubclBM3sH" variants={item}>
                 <li className="navitem">Telegram</li>
               </motion.a>
-              <motion.a href="#" variants={item}>
+              <motion.a href="https://t.co/6SF27Swspb" variants={item}>
                 <li className="navitem">Chart</li>
               </motion.a>
               {/* nav buttons */}
               <motion.li className="navitem_btn" variants={item}>
-                <button className="btn_mobile register_btn-mobile">
-                  BUY $GIF
-                </button>
+                <a href="https://t.co/6SF27Swspb">
+                  <button className="btn_mobile register_btn-mobile">
+                    BUY $GIF
+                  </button>
+                </a>
               </motion.li>
             </motion.ul>
           </motion.div>
