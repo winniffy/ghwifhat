@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import "./Tokenomics.css";
+import { motion } from "framer-motion";
 
 const Tokenomics = () => {
   const [isCopied, setIsCopied] = useState(false);
@@ -23,29 +24,44 @@ const Tokenomics = () => {
 
   return (
     <section className="tokenomics_section">
-      <div className="tokenomics_box">
+      <motion.div
+        className="tokenomics_box"
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
         <button className="token_btn token_btn-ca">CONTRACT ADDRESS</button>
         <p className="address">{addressText}</p>
         <button className="token_btn token_btn-copy" onClick={handleCopyClick}>
           {isCopied ? "Copied" : "Copy"}
         </button>
-      </div>
+      </motion.div>
 
       <div className="tokenomics-box">
-        <p className="tokenomics-box_header">$GHOSTWIFHAT TOKENOMICS</p>
+        <motion.p
+          className="tokenomics-box_header"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+        >
+          $GHOSTWIFHAT TOKENOMICS
+        </motion.p>
 
-        <div className="tokenomics-box_flex">
+        <motion.div
+          className="tokenomics-box_flex"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
           <div className="tokenomics-mini_box">
             <p className="">Supply</p>
             <p className="">
               <b>99,999,934.95</b>
             </p>
           </div>
-
-          {/* <div className="tokenomics-mini_box">
-            <p className="">Lp Tokens</p>
-            <p className="">Burnt</p>
-          </div> */}
 
           <div className="tokenomics-mini_box">
             <p className="">Ownership</p>
@@ -60,7 +76,7 @@ const Tokenomics = () => {
               <b>0</b>
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

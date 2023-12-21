@@ -1,9 +1,16 @@
 import React from "react";
 import "./Buy.css";
+import { motion } from "framer-motion";
 
 const Buy = () => {
   return (
-    <section className="buy_section">
+    <motion.section
+      className="buy_section"
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
       <div>
         <p className="howToBuy">HOW TO BUY $GHOSTWIFHAT</p>
 
@@ -33,7 +40,7 @@ const Buy = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

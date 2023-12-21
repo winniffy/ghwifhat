@@ -7,7 +7,13 @@ import "./CarouselSlide.css";
 const CarouselSlide = ({ heroImage2, meme1, meme2, meme3, meme4 }) => {
   const centerSlidePercentage = window.innerWidth <= 500 ? 100 : 33.3;
   return (
-    <motion.section className="carousel_section">
+    <motion.section
+      className="carousel_section"
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
       <h4 className="carousel_header">WE'RE ALL GHOSTS WIF HAT</h4>
 
       {/* testimonial carousel */}
