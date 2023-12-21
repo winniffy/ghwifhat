@@ -30,7 +30,7 @@ const Navbar = ({ logo }) => {
       {/* nav list items */}
       <ul className="navlist">
         <a
-          href="https://t.co/Kih6IQWH15"
+          href="https://x.com/ghostwifcoin"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -81,18 +81,22 @@ const Navbar = ({ logo }) => {
               initial="hidden"
               animate="show"
             >
-              <motion.a href="https://t.co/Kih6IQWH15" variants={item}>
+              <motion.a href="https://x.com/ghostwifcoin" target="_blank"
+          rel="noopener noreferrer" variants={item}>
                 <li className="navitem">Twitter(X)</li>
               </motion.a>
-              <motion.a href="https://t.co/iubclBM3sH" variants={item}>
+              <motion.a href="https://t.co/iubclBM3sH" target="_blank"
+          rel="noopener noreferrer" variants={item}>
                 <li className="navitem">Telegram</li>
               </motion.a>
-              <motion.a href="https://t.co/6SF27Swspb" variants={item}>
+              <motion.a href="https://t.co/6SF27Swspb" target="_blank"
+          rel="noopener noreferrer" variants={item}>
                 <li className="navitem">Chart</li>
               </motion.a>
               {/* nav buttons */}
               <motion.li className="navitem_btn" variants={item}>
-                <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in">
+                <a target="_blank"
+          rel="noopener noreferrer" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in">
                   <button className="btn_mobile">BUY $GIF</button>
                 </a>
               </motion.li>
