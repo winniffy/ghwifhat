@@ -6,7 +6,7 @@ const Footer = ({ logo }) => {
     <footer className="footer">
       <img src={logo} alt="logo" className="footer_logo" />
       <p className="footer_text">
-        Copyright &copy; 2023 $$GhostWifHat - All rights reserved
+        Copyright &copy; 2023 $GhostWifHat - All rights reserved
       </p>
     </footer>
   );
